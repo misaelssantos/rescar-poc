@@ -2,9 +2,22 @@
 
 Poc para validação de ferramentas para Api Managment utilizando o **Rescar** como base.
 
+## Cenários
+
+* [Rescar Docker (VM only)](#rescar---docker)
+* [Rescar Docker (VM + RDS)](#rescar---docker-com-banco-externo)
+
+
 ## Rescar - Docker
 
 ![Topologia](docs/poc_api_magement_docker.png)
+
+### Requisitos para a VM
+
+* Linux
+* Docker + Docker Compose
+
+### Downloads
 
 [Download docker_rescar.zip](https://serprogovbr-my.sharepoint.com/:u:/g/personal/theo_pavan_serpro_gov_br/EWR6zHDcdAVHhzgahmNIZ1IBd8tkQxmrtTMM79vhnB0RKg?e=MNFKmb)
 
@@ -93,6 +106,11 @@ Alguns comandos úteis no desenvolvimento local:
 
 
 ## Rescar - Docker com Banco Externo
+
+
+![VM + DBaaS](docs/rescar-dbaas.png)
+
+
 Segue o procedimento para subir o Rescar em uma VM com banco em uma instância externa/separada.
 
 1) Baixar o dump do banco testes e rodar o script abaixo.
