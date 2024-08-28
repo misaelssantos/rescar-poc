@@ -96,7 +96,7 @@ Alguns comandos úteis no desenvolvimento local:
 Segue o procedimento para subir o Rescar em uma VM e o banco em uma instância externa.
 
 Baixar o dump do banco testes e rodar o script abaixo.
-[Download dump database google drive]([https://drive.google.com/file/d/1Ryjm8ky1ou7_jpum5vpOKreX52-oFbsh/view?usp=drive_link](https://drive.google.com/file/d/1PQ2-X-90VoyE43v3tBHprkR3_Vc_O4Vl/view?usp=drive_link))
+[Download dump database google drive](https://drive.google.com/file/d/1PQ2-X-90VoyE43v3tBHprkR3_Vc_O4Vl/view?usp=drive_link)
 
 Apos rodar o dump do do banco, deve ser configurad o acesso externo para a base
 
