@@ -19,9 +19,14 @@ Poc para validação de ferramentas para Api Managment utilizando o **Rescar** c
 
 ### Downloads
 
-[Download docker_rescar.zip](https://serprogovbr-my.sharepoint.com/:u:/g/personal/theo_pavan_serpro_gov_br/EWR6zHDcdAVHhzgahmNIZ1IBd8tkQxmrtTMM79vhnB0RKg?e=MNFKmb)
 
-[Download opção google drive](https://drive.google.com/file/d/1sXEwAwhmYhoB1E6LwtpVfZTLMtaw3x6N/view?usp=sharing)
+Opção 1:
+
+[Download opção google drive](https://drive.google.com/file/d/1sXEwAwhmYhoB1E6LwtpVfZTLMtaw3x6N/view?usp=sharing) - https://drive.google.com/file/d/1sXEwAwhmYhoB1E6LwtpVfZTLMtaw3x6N/view?usp=sharing
+
+Opção 2:
+
+[Download docker_rescar.zip](https://serprogovbr-my.sharepoint.com/:u:/g/personal/theo_pavan_serpro_gov_br/EWR6zHDcdAVHhzgahmNIZ1IBd8tkQxmrtTMM79vhnB0RKg?e=MNFKmb)
 
 ``` bash
 # extrair o conteúdo da pasta docker_rescar.zip
