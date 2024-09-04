@@ -18,7 +18,7 @@ Poc para validação de ferramentas para Api Managment utilizando o **Rescar** c
   * Linux
   * Docker + Docker Compose
 * Egress Policy:
-  * https://viacep.com.br/ws/%s/json
+  * https://viacep.com.br
 
 ### Downloads
 
