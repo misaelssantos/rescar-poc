@@ -74,36 +74,6 @@ Swagger Rescar - Docker: [http://localhost:8080/api/swagger-ui/index.html](http:
 
 ![Listar Usuários - Resultado](docs/resultado_listar_usuarios.png)
 
-## Desenvolvimento local
-
-Alguns comandos úteis no desenvolvimento local:
-
-``` bash
-# build/atualização da versão rodando no docker local
-> ./build-rescar-docker.sh
-
-# build/deploy do Frontend para o Estaleiro
-> ./estaleiro/frontend/deploy.sh
-
-# build/deploy do Backend para o Estaleiro
-> ./estaleiro/backend/deploy.sh
-
-# build flutter web
-> cd ./frontend/rescar
-> flutter build web
-
-# executar flutter web em desenvolvimento
-> cd ./frontend/rescar
-> flutter run -d chrome
-```
-
-- *[DICA] Desenvolvimento Frontend x Backend LOCAL*
-    
-    Se for executar o *frontend* e/ou *backend* localmente sem o auxílio do docker, verificar o arquivo *./frontend/rescar/lib/utils/chopper_clients.dart* se o **baseUrl** está apontando para o *backend* correto. O padrão é ***/api*** para acesso no *estaleiro* e quando executando backend e frontend via *docker*. 
-    
-    Por exemplo, para o desenvolvimento local executando o frontend manualmente e acessando o backend no docker seria ***baseUrl = http://localhost:8081***.
-
-
 
 ## Rescar - Docker com Banco Externo
 
